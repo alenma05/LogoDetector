@@ -123,7 +123,7 @@ with demo:
     gr.Markdown(description)
     
     options = gr.Dropdown(choices=models, label='Select Object Detection Model', show_label=True)
-    slider_input = gr.Slider(minimum=0.2, maximum=1, value=0.95, label='Prediction Threshold')
+    slider_input = gr.Slider(minimum=0.2, maximum=1, value=0.80, label='Prediction Threshold')
 
     with gr.Tabs():
         with gr.TabItem('Image URL'):
