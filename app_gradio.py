@@ -158,4 +158,4 @@ with demo:
     example_url.click(fn=set_example_url, inputs=[example_url], outputs=[url_input])
 
 
-demo.launch(enable_queue=True,share=False)
+demo.launch(enable_queue=True,share=True)
